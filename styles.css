@@ -119,7 +119,7 @@ body, html {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
-	font-size: 30px;
+	font-size: 8vw;
 }
 
 input[type=text], select, textarea {
