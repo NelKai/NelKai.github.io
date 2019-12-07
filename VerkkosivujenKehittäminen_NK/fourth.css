@@ -1,0 +1,110 @@
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	display: grid;
+	grid-template-rows: 1fr auto;
+}
+
+.main {
+	max-width: 1000px;
+	margin: auto;
+}
+
+
+.navbar {
+	width: 100%;
+}
+
+.navbar a {
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+}
+
+.navbar a:hover {
+	color: #666;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar a {
+    float: none;
+  }
+  .container {
+	  width: 100%;
+	  margin: 0;
+	  position: absolute;
+	  left: 15%;
+  }
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.bg-img {
+	background-image: url("pariisiIso_kuva.jpg");
+	min-height: 380px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: #666;
+}
+
+.container {
+	position: absolute;
+	right: 42%;
+	top: 20%;
+	margin: 20px;
+	max-width: 300px;
+	padding: 16px;
+	background-color: white;
+}
+
+input[type=text], input[type=salasana] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=salasana]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+.btn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+.btn:hover {
+	background-color: #666;
+}
+
+.footer {
+	background-color: #ddd;
+	padding: 5px;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	text-align: center;
+	font-size: 12px;
+}
+
+.footer a {
+	padding-right: 5px;
+}
