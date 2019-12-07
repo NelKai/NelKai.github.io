@@ -119,7 +119,7 @@ body, html {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
-	font-size: 8vw;
+	font-size: 30px;
 }
 
 input[type=text], select, textarea {
@@ -163,6 +163,9 @@ input[type=submit]:hover {
 	}
 	.container {
 		width: auto;
+	}
+	.hero-text3 {
+		font-size: 8vw;
 	}
 }
 
